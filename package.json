@@ -1,14 +1,14 @@
 {
-  "name": "Webpack",
-  "version": "1.0.0",
-  "description": "",
+  "name": "SocketsTest",
+  "version": ".5.0",
+  "description": "Sockets test, with ES6",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --config",
     "build": "webpack --config"
   },
-  "keywords": [],
+  "keywords": ["Socket.io"],
   "author": "Andrew Meiling",
   "license": "ISC",
   "devDependencies": {
