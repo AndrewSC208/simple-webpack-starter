@@ -1,0 +1,12 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mongodb": "mongodb://localhost:27017/beacon",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "64V1uCMOgQpt55+LpInUI2Pum5ieBX5AEzDuvqyzAbuUWj+Z7hQLm542of7u5oyn9iMAIBzXybXG8o8bYrBGpw=="
+    },
+    "local": {}
+  }
+}

@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const path = require('path');
 
 const config = {
-  entry: './app/index.js',
+  entry: './src/app/js/index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
@@ -27,7 +27,7 @@ const config = {
   },
     plugins: [
     new webpack.optimize.UglifyJsPlugin(),
-    new HtmlWebpackPlugin({template: './index.html'})
+    new HtmlWebpackPlugin({template: './src/app/index.html'})
   ]
 };
 
